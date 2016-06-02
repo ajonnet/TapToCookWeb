@@ -435,3 +435,25 @@ body {
 div,h4,img {
 	border:0px solid black;
 }
+
+.txt-overlay {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	z-index:10;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
